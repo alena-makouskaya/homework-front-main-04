@@ -29,7 +29,7 @@ export const HW4 = () => {
       {currentText ? (
         <h1 id={'hw04-text'}>{currentText}</h1>
       ) : (
-        <h1 id={'hw04-default-text'}>{currentText}</h1>
+        <h1 id={'hw04-default-text'}>{texts[0]}</h1>
       )}
 
       <Input currentText={currentText} setCurrentText={setCurrentText} />
